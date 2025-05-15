@@ -13,9 +13,11 @@ abstract class BusinessContract {
             String customerName,
             String customerEmail,
             boolean isSold,
-            double totalPrice,
-            double monthlyPayment
-    )
+            double totalPrice
+
+    ) {
+
+    }
 
     public String toString() {
         return String.format("""
@@ -30,8 +32,8 @@ abstract class BusinessContract {
                 this.customerName,
                 this.customerEmail,
                 this.isSold,
-                this.totalPrice,
-                this.monthlyPayment
+                this.totalPrice
+
         );
     }
     public Date getDate(){
