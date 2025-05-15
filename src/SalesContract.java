@@ -6,7 +6,7 @@ public class SalesContract extends BusinessContract {
     private double processingFee=295.00;
     private boolean isFinanced=true;
 
-    SalesContact(
+    SalesContract(
             //BASE
             Date date,
             String customerName,

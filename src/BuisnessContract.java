@@ -7,8 +7,9 @@ abstract class BusinessContract {
     private boolean isSold;
     private double totalPrice;
     private double monthlyPayment;
-
+private Vehicle
     BusinessContract(
+            Vehicle vehicle
             Date date,
             String customerName,
             String customerEmail,
@@ -28,6 +29,7 @@ abstract class BusinessContract {
                         %.2f
                         %.2f
                         """,
+                this.vehicle=vehicle,
                 this.date,
                 this.customerName,
                 this.customerEmail,
